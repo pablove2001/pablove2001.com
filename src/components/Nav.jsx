@@ -9,16 +9,22 @@ const Nav = () => {
           <div className="flex items-center justify-between h-16">
             <span className="text-2xl text-white font-semibold">PabloVE</span>
             <div className="flex space-x-7 text-white text-xl">
-              <a href="#home" className="hover:text-blue-500 duration-300">
+              <a href="#home" className="sm:hover:text-blue-500 duration-300">
                 Home
               </a>
-              <a href="#about" className="hover:text-blue-500  duration-300">
+              <a href="#about" className="sm:hover:text-blue-500  duration-300">
                 About
               </a>
-              <a href="#portfolio" className="hover:text-blue-500 duration-300">
+              <a
+                href="#portfolio"
+                className="sm:hover:text-blue-500 duration-300"
+              >
                 Portfolio
               </a>
-              <a href="#contact" className="hover:text-blue-500  duration-300">
+              <a
+                href="#contact"
+                className="sm:hover:text-blue-500  duration-300"
+              >
                 Contact
               </a>
             </div>

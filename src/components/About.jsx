@@ -3,12 +3,12 @@ import download from "../img/download.png";
 const About = () => {
   return (
     <>
-      <div id="about" className="h-screen bg-gray-300 flex items-center">
-        <div className="max-w-7xl mx-auto px-4 p-20">
-          <h1 className="text-4xl font-bold mb-10">About me</h1>
+      <div id="about" className="min-h-screen bg-gray-300 flex items-center">
+        <div className="max-w-7xl mx-auto px-4 pt-20 mb-5">
+          <h1 className="text-4xl font-bold mb-5">About me</h1>
           <div className="sm:flex">
             <div className="sm:w-1/2 sm:mr-10 sm:mb-0 mb-7 bg-red-200 bg-opacity-0 h-auto">
-              <h1 className="text-2xl font-bold mb-5">
+              <h1 className="text-2xl font-bold mb-4">
                 I'm Pablo Vergara, Jr Developer / Student
               </h1>
               <p className="text-lg">
@@ -36,7 +36,7 @@ const About = () => {
               </div>
             </div>
             <div className="sm:w-1/2  bg-amber-200 bg-opacity-0 h-auto">
-              <h1 className="text-2xl font-bold mb-5">Skills</h1>
+              <h1 className="text-2xl font-bold mb-4">Skills</h1>
               <div className="flex items-center">
                 <div className="w-1/2 mr-6">
                   <p className="text-lg">
