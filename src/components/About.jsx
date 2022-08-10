@@ -1,4 +1,5 @@
 import download from "../img/download.png";
+import resume from "../assets/resume.pdf";
 
 const About = () => {
   return (
@@ -6,25 +7,26 @@ const About = () => {
       <div id="about" className="min-h-screen bg-gray-300 flex items-center">
         <div className="max-w-7xl mx-auto px-4 pt-20 mb-5">
           <h1 className="text-4xl font-bold mb-5">About me</h1>
-          <div className="sm:flex">
-            <div className="sm:w-1/2 sm:mr-10 sm:mb-0 mb-7 bg-red-200 bg-opacity-0 h-auto">
+          <div className="md:flex">
+            <div className="md:w-1/2 md:mr-10 md:mb-0 mb-7 h-auto">
               <h1 className="text-2xl font-bold mb-4">
                 I'm Pablo Vergara, Jr Developer / Student
               </h1>
               <p className="text-lg">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia
-                laborum autem est voluptate enim eum corrupti delectus illum
-                consequatur! Quam deleniti nesciunt in veniam? Iure dolorum
-                quidem necessitatibus et doloribus. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. <br />
-                Eos voluptatum dolorem, corrupti officia dolor quisquam cumque
-                commodi eius veritatis neque dolore fugit harum fugiat fuga iste
-                tenetur? Dignissimos, earum ut!
+                I'm 21 years old and I'm studying Computer Systems Engineering
+                at ITESO. I am currently learning web development to work as a
+                Full Stack Developer while I finish my degree.
+                <br />I always seek to improve in the things I do, I like to
+                teach and learn from others, I work well in a team.
+                <br />
+                My hobbies are: spending time with my friends playing board
+                games or video games, cooking, learning new things related to my
+                career, etc.
               </p>
 
               <div className="mt-5 bg-blue-500 text-white rounded-md w-48 h-auto ">
                 <a
-                  href="https://drive.google.com/file/d/1SUBMkFWuhbzrCe14Jbj9Fk1oCU1kNY-p/view?usp=sharing"
+                  href={resume}
                   target="_blank"
                   className="w-full h-full p-3 flex items-center"
                 >
@@ -35,10 +37,10 @@ const About = () => {
                 </a>
               </div>
             </div>
-            <div className="sm:w-1/2  bg-amber-200 bg-opacity-0 h-auto">
-              <h1 className="text-2xl font-bold mb-4">Skills</h1>
-              <div className="flex items-center">
-                <div className="w-1/2 mr-6">
+            <div className="md:w-1/2 h-auto">
+              <h1 className="text-2xl text-center font-bold mb-4">Skills</h1>
+              <div className="flex items-center justify-around">
+                <div className="">
                   <p className="text-lg">
                     <span className="font-bold underline">Lenguages</span>
                     <br />- Python
@@ -49,7 +51,7 @@ const About = () => {
                     <br />- HTML / CSS
                   </p>
                 </div>
-                <div className="w-1/2">
+                <div className="">
                   <p className="text-lg">
                     <span className="font-bold underline">Tools</span>
                     <br />- Git / GitHub

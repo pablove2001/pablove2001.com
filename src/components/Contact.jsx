@@ -17,7 +17,7 @@ const Contact = () => {
               <img src={email} alt="email" className="w-10 mx-7 my-4" />
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=5213318033018&text=Hi,%20Pablo"
+              href="https://api.whatsapp.com/send?phone=523318033018&text=Hi,%20Pablo"
               target="_blank"
             >
               <img src={whatsapp} alt="whatsapp" className="w-10 mx-7 my-4" />
