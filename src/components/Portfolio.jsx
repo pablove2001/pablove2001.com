@@ -1,6 +1,3 @@
-import React from "react";
-import Contact from "./Contact";
-
 const Portfolio = () => {
   return (
     <>
@@ -17,7 +14,6 @@ const Portfolio = () => {
             <div className="bg-white border-2 border-black h-40 w-80 m-1.5"></div>
           </div>
         </div>
-        <Contact />
       </div>
     </>
   );
