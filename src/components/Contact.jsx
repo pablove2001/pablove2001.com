@@ -7,8 +7,10 @@ const Contact = () => {
   return (
     <>
       <div id="contact" className="h-auto bg-gray-300">
-        <div className="max-w-5xl mx-auto px-4 pt-20 pb-10">
-          <h1 className="text-4xl font-bold mb-5">Contact</h1>
+        <div className="max-w-5xl mx-auto px-5 pt-20 pb-10">
+          <h1 className="text-4xl font-bold mb-5 pt-8 border-t-4 border-black">
+            Contact
+          </h1>
           <h1 className="text-xl font-bold mb-4">
             Contact me if you want us to work together.
           </h1>
