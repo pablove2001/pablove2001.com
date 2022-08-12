@@ -4,8 +4,7 @@ import expensePlanner from "../img/portfolio/expense-planner.png";
 import cryptocurrency from "../img/portfolio/cryptocurrency-price.png";
 import crmReact from "../img/portfolio/crm-react.png";
 import toDoList from "../img/portfolio/to-do-list.png";
-import inventoryManagement from "../img/portfolio/InventoryManagement.png";
-import java from "../img/portfolio/java.png";
+import inventoryManagement from "../img/portfolio/inventoryManagement.png";
 
 function Button(props) {
   return (
@@ -80,7 +79,7 @@ const Portfolio = () => {
               github="https://github.com/pablove2001/CRM-React"
             />
             <Project
-              img={java}
+              img={inventoryManagement}
               name="Inventory Management"
               tools="Java, Eclipse"
               web=""
