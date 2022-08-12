@@ -1,9 +1,11 @@
+import github from "../img/portfolio/github.png";
+import web from "../img/portfolio/web.png";
 import expensePlanner from "../img/portfolio/expense-planner.png";
 import cryptocurrency from "../img/portfolio/cryptocurrency-price.png";
 import crmReact from "../img/portfolio/crm-react.png";
 import toDoList from "../img/portfolio/to-do-list.png";
-import github from "../img/portfolio/github.png";
-import web from "../img/portfolio/web.png";
+import inventoryManagement from "../img/portfolio/InventoryManagement.png";
+import java from "../img/portfolio/java.png";
 
 function Button(props) {
   return (
@@ -29,7 +31,7 @@ function Button(props) {
 function Project(props) {
   return (
     <div
-      className="h-56 w-full bg-white drop-shadow-lg rounded-md bg-cover bg-center hover:bg"
+      className="h-56 w-full drop-shadow-lg rounded-md bg-cover bg-center hover:bg"
       style={{ backgroundImage: `url(${props.img})` }}
     >
       <div className="w-full h-full bg-black bg-opacity-70 rounded-md hover:opacity-100 opacity-0 duration-300 flex items-center">
@@ -59,28 +61,35 @@ const Portfolio = () => {
             <Project
               img={expensePlanner}
               name="Expense Planner"
-              tools="React, Tailwind"
+              tools="React, CSS, Localstorage"
               web="https://duos2-expense-planner.netlify.app/"
               github="https://github.com/pablove2001/Expense-Planner"
             />
             <Project
               img={cryptocurrency}
               name="Cryptocurrency Price"
-              tools="React, Tailwind"
+              tools="React, Styled Components, API Query, Own Hooks"
               web="https://duos2-cryptocurrency-price.netlify.app/"
               github="https://github.com/pablove2001/Cryptocurrency-Price"
             />
             <Project
               img={crmReact}
               name="CRM React"
-              tools="React, Tailwind"
+              tools="React, Tailwind, React Router 6, JSON Server, Formik+Yup"
               web=""
               github="https://github.com/pablove2001/CRM-React"
             />
             <Project
+              img={java}
+              name="Inventory Management"
+              tools="Java, Eclipse"
+              web=""
+              github="https://github.com/pablove2001/Inventory-Management"
+            />
+            <Project
               img={toDoList}
               name="To Do List"
-              tools="React, Tailwind"
+              tools="React, Tailwind, Localstorage"
               web="https://duos2-to-do-list.netlify.app/"
               github="https://github.com/pablove2001/To-Do-List"
             />

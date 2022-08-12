@@ -20,11 +20,11 @@ const About = () => {
                 teach and learn from others, I work well in a team.
                 <br />
                 My hobbies are: spending time with my friends playing board
-                games or video games, cooking, learning new things related to my
-                career, etc.
+                games or video games, cooking and learning new things related to
+                my career.
               </p>
 
-              <div className="mt-5 bg-blue-500 text-white rounded-md w-48 h-auto ">
+              <div className="mt-5 bg-blue-500 text-white rounded-md w-48 h-auto drop-shadow-lg">
                 <a
                   href={resume}
                   target="_blank"

@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 import menu from "../img/menu.png";
 import close from "../img/close.png";
 
@@ -36,7 +37,7 @@ const Nav = () => {
               } bg-opacity-90`}
             >
               {Links.map((link) => (
-                <div className="sm:my-0 my-5">
+                <div key={link.name} className="sm:my-0 my-5">
                   <a
                     onClick={() => setOpen(false)}
                     href={link.link}

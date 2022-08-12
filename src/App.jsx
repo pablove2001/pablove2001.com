@@ -7,13 +7,13 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="overflow-x-hidden">
+    <>
       <Nav />
       <Home />
       <About />
       <Portfolio />
       <Contact />
-    </div>
+    </>
   );
 }
 
