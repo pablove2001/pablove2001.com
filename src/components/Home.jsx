@@ -1,5 +1,5 @@
-import bgHome from "../img/bg-home.jpg";
-import profile from "../img/profile.jpeg";
+import bgHome from "../img/home/bg-home.webp";
+import profile from "../img/home/photo.webp";
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
             <img
               src={profile}
               alt="fondo"
-              className="md:w-64 w-80 rounded-full h-auto border-2 border-white m-auto"
+              className="md:w-64 md:h-64 w-72 h-72 rounded-full border-2 border-white m-auto"
             />
             <div className="md:w-auto md:ml-6 md:mt-0 mt-10 h-auto text-white md:text-5xl text-4xl text-center">
               <p>

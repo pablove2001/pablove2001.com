@@ -1,4 +1,4 @@
-import download from "../img/download.png";
+import download from "../img/about/download.webp";
 import resume from "../assets/resume.pdf";
 
 const About = () => {
@@ -24,13 +24,13 @@ const About = () => {
                 my career.
               </p>
 
-              <div className="mt-5 bg-blue-500 text-white rounded-md w-48 h-auto drop-shadow-lg">
+              <div className="mt-5 hover:bg-blue-400 bg-blue-500 ring-2 ring-transparent active:ring-white text-white rounded-md w-48 h-auto drop-shadow-lg duration-300">
                 <a
                   href={resume}
                   target="_blank"
                   className="w-full h-full p-3 flex items-center"
                 >
-                  <img src={download} alt="download" className="w-5" />
+                  <img src={download} alt="download" className="w-5 h-5" />
                   <div className="w-full">
                     <p className="text-center">Download CV</p>
                   </div>

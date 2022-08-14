@@ -1,7 +1,21 @@
-import email from "../img/email.png";
-import whatsapp from "../img/whatsapp.png";
-import linkedin from "../img/linkedin.png";
-import github from "../img/github.png";
+import email from "../img/contact/email.webp";
+import whatsapp from "../img/contact/whatsapp.webp";
+import linkedin from "../img/contact/linkedin.webp";
+import github from "../img/contact/github.webp";
+
+function Button(props) {
+  return (
+    <>
+      <a href={props.link} target="_blank">
+        <img
+          src={props.img}
+          alt={props.name}
+          className="w-10 h-10 mx-7 my-4"
+        />
+      </a>
+    </>
+  );
+}
 
 const Contact = () => {
   return (
@@ -15,21 +29,28 @@ const Contact = () => {
             Contact me if you want us to work together.
           </h1>
           <div className="flex items-center justify-between">
-            <a href="mailto:vergarapablo2001@gmail.com" target="_blank">
-              <img src={email} alt="email" className="w-10 mx-7 my-4" />
-            </a>
-            <a
-              href="https://api.whatsapp.com/send?phone=523318033018&text=Hi,%20Pablo"
-              target="_blank"
-            >
-              <img src={whatsapp} alt="whatsapp" className="w-10 mx-7 my-4" />
-            </a>
-            <a href="https://www.linkedin.com/in/pablove2001/" target="_blank">
-              <img src={linkedin} alt="linkedin" className="w-10 mx-7 my-4" />
-            </a>
-            <a href="https://github.com/pablove2001" target="_blank">
-              <img src={github} alt="github" className="w-10 mx-7 my-4" />
-            </a>
+            <Button
+              name="email"
+              link={"mailto:vergarapablo2001@gmail.com"}
+              img={email}
+            />
+            <Button
+              name="whatsapp"
+              link={
+                "https://api.whatsapp.com/send?phone=523318033018&text=Hi,%20Pablo"
+              }
+              img={whatsapp}
+            />
+            <Button
+              name="linkedin"
+              link={"https://www.linkedin.com/in/pablove2001/"}
+              img={linkedin}
+            />
+            <Button
+              name="github"
+              link={"https://github.com/pablove2001"}
+              img={github}
+            />
           </div>
         </div>
       </div>

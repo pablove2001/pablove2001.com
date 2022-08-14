@@ -1,24 +1,26 @@
-import github from "../img/portfolio/github.png";
-import web from "../img/portfolio/web.png";
-import expensePlanner from "../img/portfolio/expense-planner.png";
-import cryptocurrency from "../img/portfolio/cryptocurrency-price.png";
-import crmReact from "../img/portfolio/crm-react.png";
-import toDoList from "../img/portfolio/to-do-list.png";
-import inventoryManagement from "../img/portfolio/inventoryManagement.png";
+import github from "../img/portfolio/github.webp";
+import web from "../img/portfolio/web.webp";
+import expensePlanner from "../img/portfolio/expense-planner.webp";
+import cryptocurrency from "../img/portfolio/cryptocurrency-price.webp";
+import crmReact from "../img/portfolio/crm-react.webp";
+import toDoList from "../img/portfolio/to-do-list.webp";
+import inventoryManagement from "../img/portfolio/inventoryManagement.webp";
 
 function Button(props) {
   return (
     <div
-      className={`bg-gray-800 rounded-md w-auto h-auto ${
+      className={`hover:bg-gray-700 bg-gray-800 ring-2 ring-transparent active:ring-white duration-300 rounded-md w-auto h-auto ${
         props.link.length >= 1 ? "" : "hidden"
       }`}
     >
       <a
-        href={props.link}
+        href={
+          props.link.length >= 1 ? props.link : "https://github.com/pablove2001"
+        }
         target="_blank"
         className="w-full h-full p-1 flex items-center"
       >
-        <img src={props.img} alt="web" className="w-5 mr-1" />
+        <img src={props.img} alt={props.text} className="w-5 h-5 mr-1" />
         <div className="w-full">
           <p className="text-center">{props.text}</p>
         </div>

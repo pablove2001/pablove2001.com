@@ -1,5 +1,4 @@
 import Nav from "./components/Nav";
-import Nav2 from "./components/Nav2";
 import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";

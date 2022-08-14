@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import menu from "../img/menu.png";
-import close from "../img/close.png";
+import menu from "../img/nav/menu.webp";
+import close from "../img/nav/close.webp";
 
 const Nav = () => {
   let [open, setOpen] = useState(false);
