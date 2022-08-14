@@ -9,7 +9,7 @@ import inventoryManagement from "../img/portfolio/inventoryManagement.webp";
 function Button(props) {
   return (
     <div
-      className={`hover:bg-gray-700 bg-gray-800 ring-2 ring-transparent active:ring-white duration-500 rounded-md w-auto h-auto ${
+      className={`hover:bg-gray-700 bg-gray-800 ring-2 ring-transparent active:ring-white duration-300 rounded-md w-auto h-auto ${
         props.link.length >= 1 ? "" : "hidden"
       }`}
     >
@@ -35,7 +35,7 @@ function Project(props) {
       className="overflow-hidden h-56 w-full drop-shadow-lg rounded-md bg-cover bg-center hover:bg group relative"
       style={{ backgroundImage: `url(${props.img})` }}
     >
-      <div className="absolute -top-56 w-full h-full bg-black bg-opacity-70 rounded-md group-hover:top-0 flex transition-all duration-300 ease-out items-center object-cover">
+      <div className="absolute -top-56 w-full h-full bg-black bg-opacity-70 rounded-md group-hover:top-0 flex transition-all duration-500 ease-out items-center object-cover">
         <div className="w-52 mx-auto text-white text-center">
           <h1 className="text-xl font-medium">{props.name}</h1>
           <p className="p-5">Tools: {props.tools}</p>
