@@ -24,7 +24,7 @@ const About = () => {
                 my career.
               </p>
 
-              <div className="mt-5 hover:bg-blue-400 bg-blue-500 ring-2 ring-transparent active:ring-white text-white rounded-md w-48 h-auto drop-shadow-lg duration-300">
+              <div className="mt-5 hover:bg-blue-500 bg-blue-600 ring-2 ring-transparent active:ring-white text-white rounded-md w-48 h-auto drop-shadow-lg duration-300">
                 <a
                   href={resume}
                   target="_blank"

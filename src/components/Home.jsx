@@ -20,7 +20,7 @@ const Home = () => {
               <p>
                 Hi!
                 <br />
-                <span className="text-blue-500 font-bold">
+                <span className="text-blue-600 font-bold">
                   I'm Pablo Vergara
                 </span>
                 <br />

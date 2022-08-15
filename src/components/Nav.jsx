@@ -40,8 +40,9 @@ const Nav = () => {
                 <div key={link.name} className="sm:my-0 my-5">
                   <a
                     onClick={() => setOpen(false)}
+                    z
                     href={link.link}
-                    className="sm:hover:text-blue-500 duration-300"
+                    className="sm:hover:text-blue-600 duration-300"
                   >
                     {link.name}
                   </a>

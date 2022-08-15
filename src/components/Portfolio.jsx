@@ -35,7 +35,7 @@ function Project(props) {
       className="overflow-hidden h-56 w-full drop-shadow-lg rounded-md bg-cover bg-center hover:bg group relative"
       style={{ backgroundImage: `url(${props.img})` }}
     >
-      <div className="absolute -top-56 w-full h-full bg-black bg-opacity-70 rounded-md group-hover:top-0 flex transition-all duration-500 ease-out items-center object-cover">
+      <div className="absolute -top-56 w-full h-full bg-black bg-opacity-70 group-hover:top-0 group-hover:opacity-100 opacity-0 flex transition-all duration-500 ease-out items-center object-cover">
         <div className="w-52 mx-auto text-white text-center">
           <h1 className="text-xl font-medium">{props.name}</h1>
           <p className="p-5">Tools: {props.tools}</p>
