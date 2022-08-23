@@ -32,7 +32,7 @@ function Button(props) {
 function Project(props) {
   return (
     <div
-      className="overflow-hidden h-56 w-full drop-shadow-lg rounded-md bg-cover bg-center hover:bg group relative"
+      className="overflow-hidden h-56 w-full drop-shadow-lg rounded-md bg-cover bg-center group relative"
       style={{ backgroundImage: `url(${props.img})` }}
     >
       <div className="absolute -top-56 w-full h-full bg-black bg-opacity-70 group-hover:top-0 group-hover:opacity-100 opacity-0 flex transition-all duration-500 ease-out items-center object-cover">
