@@ -63,21 +63,21 @@ const Portfolio = () => {
               img={expensePlanner}
               name="Expense Planner"
               tools="React, CSS, Localstorage"
-              web="https://duos2-expense-planner.netlify.app/"
+              web="https://pve-expense-planner.netlify.app/"
               github="https://github.com/pablove2001/Expense-Planner"
             />
             <Project
               img={cryptocurrency}
               name="Cryptocurrency Price"
               tools="React, Styled Components, API Query, Own Hooks"
-              web="https://duos2-cryptocurrency-price.netlify.app/"
+              web="https://pve-cryptocurrency-price.netlify.app/"
               github="https://github.com/pablove2001/Cryptocurrency-Price"
             />
             <Project
               img={crmReact}
               name="CRM React"
               tools="React, Tailwind, React Router 6, JSON Server, Formik+Yup"
-              web=""
+              web="https://pve-crm-react.netlify.app/"
               github="https://github.com/pablove2001/CRM-React"
             />
             <Project
@@ -91,7 +91,7 @@ const Portfolio = () => {
               img={toDoList}
               name="To Do List"
               tools="React, Tailwind, Localstorage"
-              web="https://duos2-to-do-list.netlify.app/"
+              web="https://pve-to-do-list.netlify.app/"
               github="https://github.com/pablove2001/To-Do-List"
             />
           </div>
