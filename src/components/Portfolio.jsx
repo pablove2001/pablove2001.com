@@ -67,6 +67,13 @@ const Portfolio = () => {
               github="https://github.com/pablove2001/Expense-Planner"
             />
             <Project
+              img={inventoryManagement}
+              name="Inventory Management"
+              tools="Java, Eclipse"
+              web=""
+              github="https://github.com/pablove2001/Inventory-Management"
+            />
+            <Project
               img={cryptocurrency}
               name="Cryptocurrency Price"
               tools="React, Styled Components, API Query, Own Hooks"
@@ -79,13 +86,6 @@ const Portfolio = () => {
               tools="React, Tailwind, React Router 6, JSON Server, Formik+Yup"
               web="https://pve-crm-react.netlify.app/"
               github="https://github.com/pablove2001/CRM-React"
-            />
-            <Project
-              img={inventoryManagement}
-              name="Inventory Management"
-              tools="Java, Eclipse"
-              web=""
-              github="https://github.com/pablove2001/Inventory-Management"
             />
             <Project
               img={toDoList}

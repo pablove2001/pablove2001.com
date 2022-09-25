@@ -1,6 +1,7 @@
 import download from "../img/about/download.webp";
 import resume from "../assets/resume.pdf";
 
+
 const About = () => {
   return (
     <>

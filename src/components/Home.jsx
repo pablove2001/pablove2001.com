@@ -1,5 +1,5 @@
 import bgHome from "../img/home/bg-home.webp";
-import profile from "../img/home/photo.webp";
+import profile from "../img/home/profile.webp";
 
 const Home = () => {
   return (
