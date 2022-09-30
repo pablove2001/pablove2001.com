@@ -42,7 +42,7 @@ const Nav = () => {
                     onClick={() => setOpen(false)}
                     z
                     href={link.link}
-                    className="sm:hover:text-blue-600 duration-300"
+                    className="sm:hover:text-blue-600 duration-500 transition-all ease-out"
                   >
                     {link.name}
                   </a>

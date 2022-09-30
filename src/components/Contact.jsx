@@ -6,7 +6,7 @@ import github from "../img/contact/github.webp";
 function Button(props) {
   return (
     <>
-      <a href={props.link} target="_blank">
+      <a href={props.link} target="_blank" className="hover:scale-125 transition-all duration-300 ease-out">
         <img
           src={props.img}
           alt={props.name}
