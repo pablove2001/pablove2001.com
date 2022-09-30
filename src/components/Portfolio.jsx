@@ -9,7 +9,7 @@ import inventoryManagement from "../img/portfolio/inventoryManagement.webp";
 function Button(props) {
   return (
     <div
-      className={`hover:scale-105 hover:bg-gray-700 bg-gray-800 ring-2 ring-transparent active:ring-white duration-300 rounded-md w-auto h-auto ${
+      className={`hover:bg-gray-700 bg-gray-800 ring-2 ring-transparent active:ring-white duration-300 rounded-md w-auto h-auto ${
         props.link.length >= 1 ? "" : "hidden"
       }`}
     >
