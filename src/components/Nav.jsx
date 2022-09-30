@@ -14,7 +14,7 @@ const Nav = () => {
   ];
   return (
     <>
-      <nav className="fixed top-0 bg-black sm:backdrop-filter sm:backdrop-blur-lg sm:bg-opacity-80 bg-opacity-90 w-full z-10">
+      <nav className="fixed top-0 bg-black sm:backdrop-blur-lg sm:bg-opacity-80 bg-opacity-90 w-full z-10">
         <div className="max-w-7xl mx-auto px-5">
           <div className="flex items-center justify-between h-16">
             <a href="#home" className="sm:hover:text-gray-500 duration-300">
