@@ -7,13 +7,13 @@ const About = () => {
     <>
       <div id="about" className="min-h-screen bg-gray-300 flex items-center">
         <div className="max-w-7xl mx-auto px-5 pt-20 mb-5">
-          <h1 className="text-4xl font-bold mb-5">About me</h1>
+          <h1 className="text-4xl font-bold mb-5"  data-aos="fade-right">About me</h1>
           <div className="md:flex">
             <div className="md:w-1/2 md:mr-10 md:mb-0 mb-7 h-auto">
-              <h1 className="text-2xl font-bold mb-4">
+              <h1 className="text-2xl font-bold mb-4" data-aos="fade-right">
                 I'm Pablo Vergara, Jr Developer / Student
               </h1>
-              <p className="text-lg">
+              <p className="text-lg" data-aos="fade-right">
                 I'm 21 years old and I'm studying Computer Systems Engineering
                 at ITESO. I am currently learning web development to work as a
                 Full Stack Developer while I finish my degree.
@@ -24,8 +24,8 @@ const About = () => {
                 games or video games, cooking and learning new things related to
                 my career.
               </p>
-
-              <div className="mt-5 hover:bg-blue-500 hover:scale-105 bg-blue-600 ring-2 ring-transparent active:ring-white text-white rounded-md w-48 h-auto drop-shadow-lg duration-300">
+              <div data-aos="fade-right">
+                <div className="mt-5 hover:bg-blue-500 hover:scale-105 bg-blue-600 ring-2 ring-transparent active:ring-white text-white rounded-md w-48 h-auto drop-shadow-lg duration-300">
                 <a
                   href={resume}
                   target="_blank"
@@ -37,12 +37,15 @@ const About = () => {
                   </div>
                 </a>
               </div>
+              </div>
+
+              
             </div>
             <div className="md:w-1/2 h-auto">
-              <h1 className="text-2xl text-center font-bold mb-4">Skills</h1>
+              <h1 className="text-2xl text-center font-bold mb-4" data-aos="fade-left">Skills</h1>
               <div className="flex items-center justify-around">
                 <div className="">
-                  <p className="text-lg">
+                  <p className="text-lg" data-aos="fade-left">
                     <span className="font-bold underline">Lenguages</span>
                     <br />- Python
                     <br />- C
@@ -53,7 +56,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="">
-                  <p className="text-lg">
+                  <p className="text-lg" data-aos="fade-left">
                     <span className="font-bold underline">Tools</span>
                     <br />- Git / GitHub
                     <br />- React

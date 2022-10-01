@@ -31,17 +31,19 @@ function Button(props) {
 
 function Project(props) {
   return (
-    <div
-      className="overflow-hidden h-56 w-full drop-shadow-lg rounded-md bg-cover bg-center group relative hover:scale-105 transition-all duration-500 ease-out"
-      style={{ backgroundImage: `url(${props.img})` }}
-    >
-      <div className="absolute -top-56 w-full h-full bg-black bg-opacity-70 group-hover:top-0 group-hover:opacity-100 opacity-0 flex transition-all duration-500 ease-out items-center object-cover">
-        <div className="w-52 mx-auto text-white text-center">
-          <h1 className="text-xl font-medium">{props.name}</h1>
-          <p className="p-5">Tools: {props.tools}</p>
-          <div className="flex items-center justify-around">
-            <Button link={props.web} img={web} text="Website" />
-            <Button link={props.github} img={github} text="GitHub" />
+    <div data-aos="fade-up">
+      <div
+        className="overflow-hidden h-56 w-full drop-shadow-lg rounded-md bg-cover bg-center group relative hover:scale-105 transition-all duration-500 ease-out"
+        style={{ backgroundImage: `url(${props.img})` }}
+      >
+        <div className="absolute -top-56 w-full h-full bg-black bg-opacity-70 group-hover:top-0 group-hover:opacity-100 opacity-0 flex transition-all duration-500 ease-out items-center object-cover">
+          <div className="w-52 mx-auto text-white text-center">
+            <h1 className="text-xl font-medium">{props.name}</h1>
+            <p className="p-5">Tools: {props.tools}</p>
+            <div className="flex items-center justify-around">
+              <Button link={props.web} img={web} text="Website" />
+              <Button link={props.github} img={github} text="GitHub" />
+            </div>
           </div>
         </div>
       </div>
@@ -54,8 +56,10 @@ const Portfolio = () => {
     <>
       <div id="portfolio" className="min-h-screen bg-gray-300">
         <div className="max-w-7xl mx-auto px-5 pt-20 pb-5">
-          <h1 className="text-4xl font-bold mb-5">Portfolio</h1>
-          <h1 className="text-2xl font-bold mb-4">
+          <h1 className="text-4xl font-bold mb-5" data-aos="fade-up">
+            Portfolio
+          </h1>
+          <h1 className="text-2xl font-bold mb-4" data-aos="fade-up">
             Here you can see the projects I have worked on
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

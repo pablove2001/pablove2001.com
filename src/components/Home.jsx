@@ -9,7 +9,11 @@ const Home = () => {
         className="min-h-screen bg-fixed flex items-center bg-cover bg-center"
         style={{ backgroundImage: `url(${bgHome})` }}
       >
-        <div className="max-w-7xl mx-auto p-5 h-auto backdrop-blur-sm rounded-3xl bg-black/60">
+        <div
+          className="max-w-7xl mx-auto p-5 h-auto backdrop-blur-sm rounded-3xl bg-black/60"
+          data-aos="fade-right"
+          data-aos-delay="250"
+        >
           <div className="md:flex items-center">
             <img
               src={profile}
