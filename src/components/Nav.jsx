@@ -40,7 +40,6 @@ const Nav = () => {
               className={`sm:flex sm:static absolute md:z-auto sm:space-x-7 sm:w-auto text-center w-screen sm:top-auto top-16 text-white sm:text-xl text-2xl sm:p-0 p-6 transition-all duration-300 ease-in ${
                 open ? "left-0 bg-black" : "left-[100vw]"
               } bg-opacity-90`}
-              data-aos="fade-left"
             >
               {Links.map((link) => (
                 <div key={link.name} className="sm:my-0 my-5">
