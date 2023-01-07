@@ -1,5 +1,5 @@
 import email from "../img/contact/email.webp";
-import whatsapp from "../img/contact/whatsapp.webp";
+import leetcode from "../img/contact/leetcode.webp";
 import linkedin from "../img/contact/linkedin.webp";
 import github from "../img/contact/github.webp";
 
@@ -41,11 +41,9 @@ const Contact = () => {
               img={email}
             />
             <Button
-              name="whatsapp"
-              link={
-                "https://api.whatsapp.com/send?phone=523318033018&text=Hi,%20Pablo"
-              }
-              img={whatsapp}
+              name="leetcode"
+              link={"https://leetcode.com/PabloVE2001/"}
+              img={leetcode}
             />
             <Button
               name="linkedin"
