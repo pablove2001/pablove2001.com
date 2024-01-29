@@ -1,5 +1,6 @@
 import bgHome from "../img/home/bg-home.webp";
 import profile from "../img/home/profile.webp";
+import Typical from "react-typical";
 
 const Home = () => {
   return (
@@ -28,7 +29,18 @@ const Home = () => {
                   I'm Pablo Vergara
                 </span>
                 <br />
-                Jr Developer
+                <Typical 
+                    loop={Infinity}
+                    wrapper="spam"
+                    steps={[
+                      'Jr Developer',
+                      4000,
+                      'Student',
+                      4000,
+                      'HP Inc Intern',
+                      4000
+                    ]}
+                  />
               </p>
             </div>
           </div>
